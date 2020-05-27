@@ -10,6 +10,9 @@
     font-weight: 700;
     
 }
+.header__column{
+    display: flex;
+}
 
 .header .header__icon{
 

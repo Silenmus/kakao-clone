@@ -13,11 +13,62 @@
   cursor:unset;
 }
 
+body > main > section > ul > li:nth-child(1) > span.suggestion__icon{
+  animation: jump1 1.5s infinite;
+}
+body > main > section > ul > li:nth-child(2) > span.suggestion__icon{
+  animation: jump1 1.5s infinite;
+  animation-delay: 0.5s;
+}
+body > main > section > ul > li:nth-child(3) > span.suggestion__icon{
+  animation: jump1 1.5s infinite;
+  animation-delay: 1s;
+}
+
 .more__btn-list .more__btn {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+body > main > ul > li:nth-child(1) > span.more__btn-icon > i{
+  animation: jump1 1.5s infinite;
+}
+
+body > main > ul > li:nth-child(2) > span.more__btn-icon > i{
+  animation: jump1 1.5s infinite;
+  animation-delay: 0.5s;
+}
+
+body > main > ul > li:nth-child(3) > span.more__btn-icon > i{
+  animation: jump1 1.5s infinite;
+  animation-delay: 1s;
+}
+
+@keyframes jump1{
+  0%{
+    transform: translateY(-10px);
+  }
+  20%{
+
+  }
+  30%{
+
+  }
+  50%{
+
+  }
+  70%{
+
+  }
+  90%{
+
+  }
+  100%{
+    transform: none;
+  }
+}
+
+
 
 .more__btn .more__btn-title {
   font-size: 14px;

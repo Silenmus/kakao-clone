@@ -3,6 +3,21 @@
     border-top:1px solid #f7f7f7;
 
 }
+.settings__icon>i{
+    animation: bigger 2s infinite ;
+    
+}
+@keyframes bigger{
+    0%{
+        transform: none;
+        /* color: blue; */
+    }50%{
+        transform: scale(1.2);
+        color: blue;
+    }100%{
+        transform: none;
+    }
+}
 
 .settings__setting .settings__icon{
 font-size: 20px;

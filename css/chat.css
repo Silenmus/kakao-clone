@@ -192,12 +192,12 @@ font-size: 12px;
 
 .incoming-message .message__bubble {
   border-bottom-left-radius: 0px;
-  background-image: linear-gradient(to right, #7b4397, #dc2430);
+  background-image: linear-gradient(to right, #EECDA3, #EF629F);
 }
 
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
-  background-image: linear-gradient(to left, #00c6ff, #0072ff);
+  background-image: linear-gradient(to left, #64f38c, #0072ff);
 }
 
 
