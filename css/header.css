@@ -8,6 +8,7 @@
 .header .header__title{
     font-size: 25px;
     font-weight: 700;
+    
 }
 
 .header .header__icon{
@@ -16,6 +17,10 @@
     margin-left:25px;
     cursor: pointer;
 
+}
+
+.fa-cog{
+    animation: spinCog 2s infinite linear ;
 }
 
 .header__header-column {
@@ -30,7 +35,13 @@
     margin-right: 20px;
 }
 
-
+@keyframes spinCog{
+    from{
+        transform : rotate(0deg);
+    }to{
+        transform : rotate(360deg);
+        }
+}
 
 
 

@@ -16,12 +16,13 @@
 }
 
 body {
-  background-color: white;
+  /* background-color: white; */
   
   padding: 10px 20px;
   color: #020202;
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 300;
+  animation: changeBg 10s ease-out infinite;
 }
 
 a {
@@ -42,4 +43,16 @@ a {
 
 main{
   animation : fadeIn .5s ease-in-out;
+}
+
+
+@keyframes changeBg{
+  0%{
+     background-color: white;
+  }50%{
+      background-color:#fce006;
+  }
+  100%{
+    background-color: white;
+  }
 }
