@@ -37,3 +37,11 @@
     opacity: 0.7;
     margin-bottom: 20px;
   }
+
+  
+
+  body > main > ul.find__recommended > li > div > img
+ {
+   margin-top:1rem;
+
+ } 

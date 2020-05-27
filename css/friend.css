@@ -5,7 +5,8 @@
 }
 
 .friend .friend__avatar {
-  width: 50px;
+  width: 3.5rem;
+  height: 3.5rem;
   border-radius: 35%;
 }
 

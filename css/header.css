@@ -18,10 +18,11 @@
 
 }
 
-.header .header__column {
+.header__header-column {
+    
     display: flex;
     align-items: center;
-    
+    justify-content: center;
 }
 
 .header .header__back-btn{
